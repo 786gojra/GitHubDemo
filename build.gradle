@@ -28,7 +28,7 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-///** todo: We can override the test */
+///** todo: We can override the test along with commit */
 //test{
 //    println "test message I live in Georgia with my wife. She is watching the snow falling "
 //}
