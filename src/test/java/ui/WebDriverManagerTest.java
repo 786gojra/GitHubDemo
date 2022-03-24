@@ -15,4 +15,5 @@ public class WebDriverManagerTest {
     }
 }
 
+
 // The Web opens successfully
