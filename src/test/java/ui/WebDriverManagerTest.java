@@ -14,4 +14,5 @@ public class WebDriverManagerTest {
         driver.navigate().to("https://www.amazon.com");
     }
 }
+
 // The Web opens successfully
