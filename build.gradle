@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.1.0'
+    implementation 'org.seleniumhq.selenium:selenium-chrome-driver:3.141.59'
+}
+
+//  <!--3) selenium-server         -->
+//            <dependency>
+//                <groupId>org.seleniumhq.selenium</groupId>
+//                <artifactId>selenium-java</artifactId>
+//                <version>4.0.0</version>
+//            </dependency>
+
+
+
+
+
+test {
+    useJUnitPlatform()
+}
+///** todo: We can override the test */
+//test{
+//    println "test message I live in Georgia with my wife. She is watching the snow falling "
+//}
+
+
+//    testImplementation 'io.cucumber:cucumber-junit:5.6.0'
+//implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+//    implementation 'org.testng:testng:7.5'
